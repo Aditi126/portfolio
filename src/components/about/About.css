@@ -1,0 +1,80 @@
+.about-div {
+    width: 100vw;
+    height: 100vh;
+}
+
+.about-div header {
+    height: 20vh;
+    width: 100vw;
+    background: linear-gradient(55deg, #C1B1C4 44.25%, #F5F2EB 55%, #2D3563 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-div header h1 {
+    opacity: 100%;
+    color: #2D3563;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.about-section {
+    height: 80vh;
+    text-align: center;
+    background: linear-gradient(55deg, #C1B1C4 59.95%, #F5F2EB 70% , #2D3563 100%);
+    padding: 20px 20px;
+    padding-top: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.description {
+    max-width: 600px;
+    margin: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.explore-button {
+    padding: 8px 20px;
+    border: none;
+    background-color: transparent;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 40px;
+}
+
+.about-container p{
+    word-spacing: 2px;
+}
+
+.about-box {
+    max-width: 250px;
+}
+
+.about-box h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.about-box p {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.4;
+}
