@@ -4,10 +4,8 @@ import './About.css'
 const About = () => {
     return (
         <div className='about-div'>
-            <header>
-                <h1>About Me</h1>
-            </header>
             <div className="about-section">
+                <h1>About Me</h1>
 
                 <p className="description">
                     I'm Aditi Bajpai, a frontend developer and software engineering student passionate about building elegant UIs, solving real-world problems,

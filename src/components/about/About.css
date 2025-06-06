@@ -1,12 +1,9 @@
-.about-div {
-    width: 100vw;
-    height: 100vh;
-}
+/* 
 
 .about-div header {
     height: 20vh;
     width: 100vw;
-    background: linear-gradient(55deg, #C1B1C4 44.25%, #F5F2EB 55%, #2D3563 100%);
+    background: linear-gradient(to left, #C1B1C4 40%, #F5F2EB 50%, #2D3563 90%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,11 +15,13 @@
     color: #2D3563;
     font-size: 50px;
     font-weight: bolder;
-}
+} */
 .about-section {
-    height: 80vh;
+    
+    width: 100vw;
+    height: 100vh;
     text-align: center;
-    background: linear-gradient(55deg, #C1B1C4 59.95%, #F5F2EB 70% , #2D3563 100%);
+    background: linear-gradient(to bottom, #F5F2EB 10% , #E3CDBC 90%);
     padding: 20px 20px;
     padding-top: 0;
     font-family: 'Helvetica Neue', sans-serif;
@@ -30,6 +29,16 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.about-section h1{
+    border-bottom: 3px groove #2D3563;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 100%;
+    color: #2D3563;
+    font-size: 50px;
+    box-shadow: 0 5px 2px #2d35634f;
 }
 
 .description {
