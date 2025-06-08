@@ -4,16 +4,16 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <div className='nav-bar-div'>
-        <div className="div1 about">
-            <p>About</p>
+        <div className="div about">
+            <a>About</a>
         </div>
-        <div className="div2 skills">
-            <p>Skills</p>
+        <div className="div skills">
+            <a href=''>Skills</a>
         </div>
         {/* <div className="div3 profiles">
             <p>Profiles</p>
         </div> */}
-        <div className="div4 contact">
+        <div className="div contact">
             <button id='contact-button'>Contact me</button>
         </div>
     </div>

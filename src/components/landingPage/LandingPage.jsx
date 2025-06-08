@@ -16,20 +16,20 @@ const LandingPage = () => {
                 <p id='p2'>Front-End Developer | Problem Solver</p>
                 <br />
                 <div className="profile-icons">
-                    <div className="icon" id='email'>
-                        <img src="/src/resources/images/email.png" alt="" />
+                    <div className="icon" id='email'> 
+                        <a href='mailto:aditi.b1263@gmail.com'><img src="/src/resources/images/email.png" alt="aditi.b1263@gmail.com" id='img'/></a>
                     </div>
                     <div className="icon" id='linkedin'>
-                        <img src="/src/resources/images/linkedin.png" alt="" />
+                        <a href='https://www.linkedin.com/in/aditi-bajpai/' target='blank'><img src="/src/resources/images/linkedin.png" alt="LinkedIn: aditi-bajpai" id='img'/></a>
                     </div>
                     <div className="icon" id='github'>
-                        <img src="/src/resources/images/github.png" alt="" />
+                        <a href="https://github.com/Aditi126" target='blank'><img src="/src/resources/images/github.png" alt="Github: Aditi126" id='img'/></a>
                     </div>
                 </div>
             </div>
             <div className="right-of-page">
                 <NavBar />
-                <img src="/src/resources/images/Aditi-portfolio.png" alt="Aditi-img" />
+                <img src="/src/resources/images/Aditi-portfolio.png" alt="Aditi-img" id='aditi' />
             </div>
         </div>
     )
